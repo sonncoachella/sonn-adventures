@@ -1,18 +1,33 @@
- <!DOCTYPE html>
- <html lang="pt-BR">
- <head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <title>Os últimos momentos de uma partida de basquete: Clutch ou flop?</title>
- </head>
- <body>
+</head>
+
+<body>
     <main>
-        <div class="passo" id="passo-0">
-            <p>Numa partida de basquete seu time está perdendo por 2 pontos, faltando 1 minuto de jogo. Você tem a chance de fazer a diferença nesse jogo...</p>
-            <button class="btn-proximo": data-proximo="1"> Começar o ataque armando a jogada</button>
-            <button class="btn-proximo": data-proximo="2"> Se posicionar e esperar o armador fazer a jogada</button>
+        <div class="passo ativo" id="passo-0">
+            <p>Numa partida de basquete seu time está perdendo por 2 pontos, faltando 1 minuto de jogo. Você tem a
+                chance de fazer a diferença nesse jogo...</p>
+            <button class="btn-proximo" : data-proximo="1"> Começar o ataque armando a jogada</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você sinaliza seus companheiros para espaçar a quadra e ficar numa situação de 1x1. Como vai passar do
+                marcador?</p>
+            <button class="btn-proximo" : data-proximo="3"> Fazer um BTW seguido de um Cross e infiltrar para a
+                bandeja</button>
+            <button class="btn-proximo" : data-proximo="4"> Double Cross à lá Durant e arremessar de 3pts</button>
         </div>
     </main>
-    
- </body>
- </html>
+
+</body>
+
+</html>
