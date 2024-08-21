@@ -11,6 +11,14 @@ body{
 
 button{
     color: white;
-    background-color: black;
+    background-color: rgb(151, 52, 52);
 }
 
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+
+    display: block;
+}
